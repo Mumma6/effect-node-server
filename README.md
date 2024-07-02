@@ -56,8 +56,8 @@ The lib layer contains configuration and setup for the database:
 1. **Clone the repository:**
 
    ```sh
-   git clone https://github.com/yourusername/moviemanagement-api.git
-   cd moviemanagement-api
+   git clone https://github.com/Mumma6/effect-node-server.git
+   cd effect-node-server
    ```
 
 2. **install dependencies:**
