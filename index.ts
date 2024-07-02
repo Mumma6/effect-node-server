@@ -24,8 +24,8 @@ const HttpLive = HttpRouter.Default.unwrap(HttpServer.serve(myLogger)).pipe(
   Layer.provide(UserService.Live),
   Layer.provide(MovieService.Live),
   Layer.provide(DatabaseInitialisation.Live),
-  Layer.provide(SqlLive)
-  // Layer.provide(TracingConsole)
+  Layer.provide(SqlLive),
+  Layer.provide(TracingConsole)
 )
 
 NodeRuntime.runMain(Layer.launch(HttpLive))

@@ -1,6 +1,8 @@
-# Complete API with Only Effect: A Movie Management API
+# Complete API with Only Effect
 
 This project is an API built with the Effect library. It manages users and their associated movies, integrating with an external movie database (OMDb) to fetch additional movie details. This app showcases how you can build a backend API using only Effect and integrate it with a database and external APIs.
+
+Link to blog post: https://dev.to/martinpersson/building-robust-typescript-apis-with-the-effect-ecosystem-1m7c
 
 ## Features
 
