@@ -161,6 +161,7 @@ This project uses Effect's robust error handling to provide informative and cons
 
 ## Project Structure
 
+```sh
 ├── domain
 │ ├── user
 │ │ ├── models
@@ -187,6 +188,7 @@ This project uses Effect's robust error handling to provide informative and cons
 ├── lib
 │ └── database.ts
 └── index.ts
+```
 
 # Conclusion
 
